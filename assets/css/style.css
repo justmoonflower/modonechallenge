@@ -1,7 +1,7 @@
 * {
     box-sizing:border-box;
     padding: 0;
-    margin: 15px;
+    margin: 0;
 }
 
 body {
@@ -11,18 +11,17 @@ body {
 
 header {
     padding: 20px;
-    background-color: #a8c7a4;
+    background-color: #2a607c;
     color: #ffffff;
-    font-weight: lighter;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header h1 {
     display: inline-block;
-    font-size: 54px;
+    font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6bb;
 }
 
@@ -51,15 +50,15 @@ a {
 }
 
 p {
-    font-size: 26px;
+    font-size: 16px;
 }
 
 .hero {
-    height: 375px;
-    width: 98%;
+    height: 800px;
+    width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: 45%;
+    background-size: cover;
     background-position: center;
 }
 
@@ -80,14 +79,14 @@ p {
 }
 
 .benefits {
-    margin-bottom: auto;
+    margin-right: 20px;
     padding: 20px;
     clear: both;
-    float:none;
-    width: 45%;
-    height: 20%;
+    float: right;
+    width: 20%;
+    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #618a5c7e;
+    background-color: #2589bd;
 }
 
 .benefit-lead {
@@ -140,11 +139,10 @@ p {
 
 .search-engine-optimization {
     margin-bottom: 20px;
-    padding: 10px;
-    height: 650px;
-    width: 60%;
+    padding: 50px;
+    height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #698a65;
+    background-color: #0072bb;
     color: #ffffff;
 }
 
@@ -153,7 +151,7 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #698a65;
+    background-color: #0072bb;
     color: #ffffff;
 }
 
@@ -162,12 +160,12 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #698a65;
+    background-color: #0072bb;
     color: #ffffff;
 }
 
 .search-engine-optimization img {
-    max-height: 475px;
+    max-height: 200px;
 }
 
 .online-reputation-management img {
@@ -180,7 +178,7 @@ p {
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 36px;
 }
 
 .online-reputation-management h2 {
