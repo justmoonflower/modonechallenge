@@ -14,6 +14,9 @@ header {
     background-color: #2a607c;
     color: #ffffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -22,14 +25,12 @@ header h1 {
 }
 
 header h1 .seo {
-    color: #d9dcd6bb;
+    color: #d9dcd6;
 }
-
-
 
 .header div {
     padding-top: 15px;
-    margin-right: 20px;
+    margin-right: 15px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -47,6 +48,7 @@ header h1 .seo {
 a {
     color: #ffffff;
     text-decoration: none;
+    font-size: 16px;
 }
 
 p {
@@ -76,6 +78,7 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    flex-wrap: wrap;
 }
 
 .search-engine-optimization {
@@ -93,7 +96,7 @@ p {
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .online-reputation-management {
@@ -111,7 +114,7 @@ p {
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 28px;
 }
 
 .social-media-marketing {
@@ -129,11 +132,11 @@ p {
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .benefits {
-    margin-right: 20px;
+    margin-right: 15px;
     padding: 20px;
     clear: both;
     float: right;
@@ -141,6 +144,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    flex-wrap: wrap;
 }
 
 .benefit-lead {
