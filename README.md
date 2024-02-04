@@ -1,5 +1,7 @@
 # <Mod One Challenge: Horiseon Website>
 
+![alt text](<assets/images/Screenshot (72).png>)
+
 ## Description
 
 The challenge was to take a website and code it with accessibility standards per the client's request.
