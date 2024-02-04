@@ -1,6 +1,11 @@
 # <Mod One Challenge: Horiseon Website>
 
+## Screenshot of deployed application
+
 ![alt text](<assets/images/Screenshot (72).png>)
+
+## Link to deployed application 
+https://justmoonflower.github.io/recodingwebsite/
 
 ## Description
 
